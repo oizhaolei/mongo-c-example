@@ -1,0 +1,17 @@
+* a mongodb example written using c
+* build
+#+BEGIN_SRC sh
+cmake .
+cmake --build . --target [TARGET]
+#+END_SRC
+* targets
+  - hello_mongoc
+  - json2bson
+  - insertdoc
+  - finddoc
+  - querydoc
+  - updatedoc
+  - deletedoc
+  - countdoc
+  - executecmd
+  - threading
